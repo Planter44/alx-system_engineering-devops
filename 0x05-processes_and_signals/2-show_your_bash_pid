@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Prints lines with the word bash
+
+ps -aux --forest | grep bash
