@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Script that configures an nginx server.
-
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx start
-kill "$(pgrep 'nginx' | head -1)"
+sudo service nginx start
+rm /run/nginx.pid
