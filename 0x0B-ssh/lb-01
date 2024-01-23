@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# Script that uses ssh to connect to your server.
-
-eval $("ssh-agent")
-
-ssh ubuntu -i ~/.ssh/school
-
-
-ssh ubuntu@34.201.161.226
