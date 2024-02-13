@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Count it! """
+""" Task 4 """
 from requests import get
 
 REDDIT = "https://www.reddit.com/"
@@ -8,9 +8,7 @@ HEADERS = {'user-agent': 'my-app/0.0.1'}
 
 def count_words(subreddit, word_list, after="", word_dic={}):
     """
-    Returns a list containing the titles of all hot articles for a
-    given subreddit. If no results are found for the given subreddit,
-    the function should return None.
+    Returns a list containing the titles
     """
     if not word_dic:
         for word in word_list:
