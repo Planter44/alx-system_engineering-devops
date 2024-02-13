@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Task 0"""
+"""Module for task 0"""
 
 
 def number_of_subscribers(subreddit):
-    """Reddit API and returns the number of subscribers
+    """Queries the Reddit API and returns the number of subscribers
     to the subreddit"""
     import requests
 
