@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task 1"""
+""" Task  1"""
 
 def top_ten(subreddit):
     """Reddit API and returns the top 10 hot posts
