@@ -1,4 +1,4 @@
-# fixing typo in wordpress.
+# fixing typo in wordpress
 exec { 'fix typo':
   onlyif  => 'test -e /var/www/html/wp-settings.php',
   command => "sed -i 's/phpp/php/' /var/www/html/wp-settings.php",
