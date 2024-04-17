@@ -4,7 +4,6 @@ server {
 
     # Use IP of server as domain name
     server_name 54.87.994.2
-
     # Customize HTTP response header
     add_header X-Served-By 228560-web-01;
 

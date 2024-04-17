@@ -2,7 +2,6 @@
 
         # Use IP as domain name
         server_name 35.153.79.141
-
         # Customize HTTP response header
         add_header X-Served-By 218560-web-01;
 

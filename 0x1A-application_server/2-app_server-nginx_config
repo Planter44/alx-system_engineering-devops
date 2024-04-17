@@ -11,7 +11,6 @@ server {
     location = /airbnb-onepage/ {
         proxy_pass http://127.0.0.1:5000/airbnb-onepage/;
     }
-
     error_page 404 /404.html;
     location /404 {
       root /var/www/html;
